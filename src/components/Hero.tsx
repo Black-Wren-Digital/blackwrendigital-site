@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
   return (
     <main
       id="main-content"
-      className="relative flex h-screen w-full items-center justify-center overflow-hidden"
+      className="relative flex min-h-screen w-full items-center justify-center overflow-hidden"
     >
       {/* Decorative dot pattern — hidden from assistive tech */}
       <div

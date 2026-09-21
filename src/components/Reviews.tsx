@@ -52,7 +52,7 @@ const Reviews: React.FC = () => {
   };
 
   return (
-    <div className="relative flex h-screen w-full items-center justify-center overflow-hidden px-8 md:px-0">
+    <div className="relative flex min-h-screen w-full items-center justify-center overflow-hidden px-8 md:px-0">
       <div className="w-full max-w-7xl overflow-hidden">
         {reviews.map((review, index) => (
           <div
